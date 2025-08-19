@@ -26,7 +26,8 @@ Start with one, add more later:
 flowchart LR
     U[User Question] --> R[Retriever: BM25 + Embeddings]
     R --> C[Contextual Compression / Rerank]
-    C --> G[Generator (GPT-4o)]
+    C --> G[Generator GPT-4o]
     G --> V[Answer Validator / Hallucination Guard]
     V -->|needs more| R
     V --> A[Final Answer + Citations]
+```
