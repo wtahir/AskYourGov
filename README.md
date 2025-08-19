@@ -2,13 +2,6 @@
 
 A production‑style Retrieval‑Augmented Generation (RAG) system that answers natural‑language questions about public government programs, taxes, benefits, housing, immigration, and regulations across countries.
 
-**Why this project?**
-- Non‑niche domain, data is open and abundant.
-- RAG is the #1 enterprise LLM pattern.
-- Demonstrates modern LLM engineering: LangChain, LangGraph, observability, evals, hybrid retrieval, and source grounding.
-
----
-
 ## ✨ Features
 - Multi-country loaders (UK, EU, US, DE) from official portals.
 - Robust chunking + **hybrid retrieval** (sparse BM25 + dense embeddings).
@@ -26,10 +19,6 @@ Start with one, add more later:
 - EU (Your Europe): https://europa.eu/youreurope/
 - Germany (Make it in Germany): https://www.make-it-in-germany.com/en/
 - US (Benefits.gov): https://www.benefits.gov/
-
-> Tip: Begin with **gov.uk**. It’s well-structured, stable, and highly searchable.
-
----
 
 ## 🧱 Architecture (high level)
 
